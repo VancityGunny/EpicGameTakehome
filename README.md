@@ -9,6 +9,8 @@ Build the dockerfile using your tool of choice. (I'm using docker extension in V
 
 Run the docker image you just created.
 
-use any means to test the api at "localhost:8080/findContinentNeighbors/CA,US" GET endpoint (I'm using postman)
+use any means to test the api at "localhost:8080/findContinentNeighbors/CA,US" GET endpoint (I'm using postman) you can pass country code separate by comma at the end of the url
 
 ![image](https://user-images.githubusercontent.com/42483943/208231572-bd59f719-73fe-4fe7-a91b-8c7d05316677.png)
+
+For request rate limit, It'll depend on where to host this, I'll use API Management from Azure or other cloud provider that this will be running off of.
